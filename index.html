@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>HTML-Test</title>
   </head>
   <body>
     <h1>Exercise Friday, 07.03.2025</h1>
-    <p>The first Paragraph.</p>
-    <h2 id="abduls-part">Abdul's Part</h2>
-    <p>Abdul's Text</p>
-    <h2 id="nicos-part">Nico's Part</h2>
-    <p>Name: Nico Kühn<br>Age: </p>
-    <h2 id=christophs-part>Christoph's Part</h2>
-    <p>Christoph's Text</p>
-    <p>The final Paragraph.</p>
+    <h2>Welcome to our Team</h2>
+    <p>The Team Members are working out some basic HTML, CSS and JavaScript Stuff.<br>We added some JavaScripts and Styles to the Homepage.<br><br>With the following Buttons you can change between Dark- and Lightmode.<br>
+    We also added a JavaScript where the Team can introduce themselves.</p>
+    <button type="button" onclick="enableDarkMode ()">
+      Dark Mode on
+    </button> versus
+    <button type="button" onclick="disableDarkMode ()">
+      Dark Mode off
+    </button>
+    
+    <h1>Our Awesome Group</h1>
+<p>We are a team of Students, that are learning Python-Backend-Programming.</p>
+
+<h2>Meet the Members</h2>
+<ul id="memberList"></ul>
+
+<h3>Write About Yourself</h3>
+<input id="memberName" type="text" placeholder="Enter your name">
+<textarea id="memberIntro" placeholder="Write something about yourself"></textarea>
+<button onclick="addMemberIntro()">Add Introduction</button>
   </body>
 </html>
